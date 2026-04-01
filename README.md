@@ -1,12 +1,18 @@
 [English](README.md) | [中文](README_ZH.md)
 
-# Agentic Harness Patterns
+<p align="center">
+  <img src="images/agent-harness-patterns-header.png" alt="Agentic Harness Patterns" width="680">
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills Compatible](https://img.shields.io/badge/npx_skills_add-compatible-brightgreen.svg)](https://github.com/vercel-labs/skills)
-[![EN | ZH](https://img.shields.io/badge/Languages-EN%20%7C%20ZH-orange.svg)](#installation)
+<h1 align="center">Agentic Harness Patterns</h1>
 
-**Production design patterns for AI coding agents, distilled from 512,000 lines of Claude Code.**
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://github.com/vercel-labs/skills"><img src="https://img.shields.io/badge/npx_skills_add-compatible-brightgreen.svg" alt="Skills Compatible"></a>
+  <a href="#installation"><img src="https://img.shields.io/badge/Languages-EN%20%7C%20ZH-orange.svg" alt="EN | ZH"></a>
+</p>
+
+<p align="center"><strong>Production design patterns for AI coding agents, distilled from 512,000 lines of Claude Code.</strong></p>
 
 ---
 
@@ -86,6 +92,10 @@ Engineers building or extending:
 ```bash
 npx skills add github:keli-wen/agentic-harness-patterns-skill
 ```
+
+<p align="center">
+  <img src="images/skill-install-screenshot.png" alt="npx skills add screenshot" width="720">
+</p>
 
 **Just reading:** Open [SKILL.md](skills/agentic-harness-patterns/SKILL.md) (EN) or [SKILL.md](skills/agentic-harness-patterns-zh/SKILL.md) (ZH).
 

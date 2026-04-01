@@ -1,12 +1,18 @@
 [English](README.md) | [中文](README_ZH.md)
 
-# Agentic Harness Patterns
+<p align="center">
+  <img src="images/agent-harness-patterns-header.png" alt="Agentic Harness Patterns" width="680">
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills Compatible](https://img.shields.io/badge/npx_skills_add-compatible-brightgreen.svg)](https://github.com/vercel-labs/skills)
-[![EN | ZH](https://img.shields.io/badge/Languages-EN%20%7C%20ZH-orange.svg)](#安装)
+<h1 align="center">Agentic Harness Patterns</h1>
 
-**从 Claude Code 源码中提炼的 AI Agent Harness 设计模式**
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://github.com/vercel-labs/skills"><img src="https://img.shields.io/badge/npx_skills_add-compatible-brightgreen.svg" alt="Skills Compatible"></a>
+  <a href="#安装"><img src="https://img.shields.io/badge/Languages-EN%20%7C%20ZH-orange.svg" alt="EN | ZH"></a>
+</p>
+
+<p align="center"><strong>从 Claude Code 源码中提炼的 AI Agent Harness 设计模式</strong></p>
 
 ---
 
@@ -89,6 +95,10 @@ Anthropic 将这一层称为 **harness**。本项目试图从 Claude Code 的源
 ```bash
 npx skills add github:keli-wen/agentic-harness-patterns-skill
 ```
+
+<p align="center">
+  <img src="images/skill-install-screenshot.png" alt="npx skills add 截图" width="720">
+</p>
 
 **直接阅读：** [SKILL.md (中文)](skills/agentic-harness-patterns-zh/SKILL.md) 或 [SKILL.md (EN)](skills/agentic-harness-patterns/SKILL.md)。
 
