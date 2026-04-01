@@ -84,22 +84,10 @@ Anthropic 将这一层称为 **harness**。本项目试图从 Claude Code 的源
 ## 安装
 
 > [!TIP]
-> 提供两个版本：`agentic-harness-patterns`（English）和 `agentic-harness-patterns-zh`（中文 SKILL.md + 中文 references）。
-
-**通过 [skills 生态](https://github.com/vercel-labs/skills)安装：**
+> 提供两个版本：`agentic-harness-patterns`（English）和 `agentic-harness-patterns-zh`（中文）。通过 [Vercel Skills CLI](https://github.com/vercel-labs/skills) 安装，支持 Claude Code、Codex 及 40+ 其他 Agent。
 
 ```bash
-# English
-npx skills add agentic-harness-patterns
-
-# 中文
-npx skills add agentic-harness-patterns-zh
-```
-
-**从本仓库直接安装：**
-
-```bash
-npx skills add github:<your-username>/agentic-harness-patterns
+npx skills add github:keli-wen/agentic-harness-patterns-skill
 ```
 
 **直接阅读：** [SKILL.md (中文)](skills/agentic-harness-patterns-zh/SKILL.md) 或 [SKILL.md (EN)](skills/agentic-harness-patterns/SKILL.md)。
@@ -121,6 +109,19 @@ agentic-harness-patterns/
         ├── metadata.json
         └── references/
 ```
+
+## 路线图
+
+本 skill 目前覆盖的是从 **Claude Code** 中提炼的模式 — 这或许是目前可获取的最成熟的 Agent harness 实现。长期目标是通过分析更多生产级 Agent 系统，构建一个跨运行时的统一模式库：
+
+| 运行时 | 状态 | 说明 |
+|---|---|---|
+| **Claude Code** | 已完成 | 当前版本 — 6 章 + 11 篇参考文档 |
+| **Codex CLI** | 计划中 | OpenAI 的 Agent CLI；上下文和委派模型与 Claude Code 有显著差异 |
+| **Gemini CLI** | 计划中 | Google 在工具编排与记忆管理上的设计路径 |
+| **统一综合** | 远期 | 提炼跨三套实现仍然成立的共性模式 |
+
+一个值得验证的假设：在 Claude Code、Codex 和 Gemini CLI 中独立涌现的模式，更可能反映问题域的本质结构，而非某个团队的设计偏好。
 
 ## 延伸阅读
 

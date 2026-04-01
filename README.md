@@ -81,22 +81,10 @@ Engineers building or extending:
 ## Installation
 
 > [!TIP]
-> Two skills available: `agentic-harness-patterns` (English) and `agentic-harness-patterns-zh` (Chinese SKILL.md + English references).
-
-**Via the [skills ecosystem](https://github.com/vercel-labs/skills):**
+> Two skills available: `agentic-harness-patterns` (English) and `agentic-harness-patterns-zh` (Chinese). Install via the [Vercel Skills CLI](https://github.com/vercel-labs/skills) — works with Claude Code, Codex, and 40+ other agents.
 
 ```bash
-# English
-npx skills add agentic-harness-patterns
-
-# 中文
-npx skills add agentic-harness-patterns-zh
-```
-
-**From this repo directly:**
-
-```bash
-npx skills add github:<your-username>/agentic-harness-patterns
+npx skills add github:keli-wen/agentic-harness-patterns-skill
 ```
 
 **Just reading:** Open [SKILL.md](skills/agentic-harness-patterns/SKILL.md) (EN) or [SKILL.md](skills/agentic-harness-patterns-zh/SKILL.md) (ZH).
@@ -132,6 +120,19 @@ agentic-harness-patterns/
         └── references/                             # Chinese references
             └── ...
 ```
+
+## Roadmap
+
+This skill currently covers patterns distilled from **Claude Code** — arguably the most mature open-source-available agent harness. The long-term goal is to build a unified, cross-runtime pattern library by analyzing additional production agent systems:
+
+| Runtime | Status | Notes |
+|---|---|---|
+| **Claude Code** | Done | Current release — 6 chapters, 11 references |
+| **Codex CLI** | Planned | OpenAI's agent CLI; distinct context and delegation model |
+| **Gemini CLI** | Planned | Google's approach to tool orchestration and memory |
+| **Unified synthesis** | Future | Cross-runtime patterns that survive all three implementations |
+
+The hypothesis: patterns that independently emerge across Claude Code, Codex, and Gemini CLI are likely fundamental to the problem domain, not artifacts of any single team's design taste.
 
 ## Further Reading
 
