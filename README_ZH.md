@@ -5,9 +5,10 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <a href="https://github.com/vercel-labs/skills"><img src="https://img.shields.io/badge/npx_skills_add-compatible-brightgreen.svg" alt="Skills Compatible"></a>
-  <a href="#安装"><img src="https://img.shields.io/badge/Languages-EN%20%7C%20ZH-orange.svg" alt="EN | ZH"></a>
-  &nbsp;
-  <a href="README.md">English</a> | <a href="README_ZH.md">中文</a>
+</p>
+
+<p align="center">
+  <a href="README.md"><strong>English</strong></a> · <a href="README_ZH.md"><strong>中文</strong></a>
 </p>
 
 ---
