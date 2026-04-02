@@ -16,6 +16,9 @@
 
 ---
 
+> [!TIP]
+> **How this was built:** Read the [Distilling Claude Code Source — A Harness Engineering Practice Log](docs/distillation-harness-practice.md) for the full story of how Codex and Claude Code collaborated, the PCA-inspired taste injection, and what worked (and didn't).
+
 The model loop is easy. `User -> LLM -> tool_use -> execute -> loop` fits on a napkin. What makes a production agent actually work — reliably, safely, at scale — is everything *around* the loop: memory that persists across sessions, permissions that fail closed, context budgets that don't explode, multi-agent coordination that doesn't collapse into chaos, and extensibility that doesn't become a security hole.
 
 Anthropic calls this the **harness**. This repo teaches you how to build one.
@@ -83,6 +86,8 @@ Engineers building or extending:
 3. **Factual review** — 3 independent review rounds verified each claim against source code
 4. **Abstraction uplift** — Implementation details pushed into "Evidence" sections; principles generalized to be runtime-portable
 5. **UX audit** — Discoverability, audience fit, and principle-to-action gap reviewed from user perspective
+
+For the full story — how Codex and Claude Code collaborated, the handoff protocol, what worked and what didn't — see **[Distillation Process](docs/distillation-harness-practice.md)**.
 
 ## Installation
 

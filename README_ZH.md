@@ -16,6 +16,9 @@
 
 ---
 
+> [!TIP]
+> **这个 Skill 是怎么做出来的：** 阅读 [Claude Code 源码蒸馏 - Harness Engineering 实践记录](docs/distillation-harness-practice-zh.md)，了解 Codex 与 Claude Code 如何协作、PCA 式的品味注入、以及过程中的经验教训。
+
 ## 为什么关注 Harness
 
 一个 AI 编程助手的核心循环 — `用户 → LLM → tool_use → 执行 → 循环` — 在工程上并不复杂。真正决定一个 Agent 能否在生产环境中稳定运行的，是循环之外的基础设施：跨会话的记忆管理、默认关闭的权限管道、可预测的上下文预算控制、多 Agent 之间的协调机制、以及不引入新攻击面的扩展体系。
@@ -86,6 +89,8 @@ Anthropic 将这一层称为 **harness**。本项目试图从 Claude Code 的源
 3. **事实审查** — 3 轮独立 review，逐条核验声明与源码的对应关系
 4. **抽象提升** — 将实现细节下沉到 "Evidence" 段落，原则层面泛化为运行时无关的表述
 5. **用户体验审计** — 从使用者视角审查可发现性、读者匹配度、从原则到操作的落差
+
+关于 Codex 与 Claude Code 如何协作、人在其中做了什么、以及过程中的反思，详见 **[蒸馏过程：一次 Harness Engineering 实践](docs/distillation-harness-practice-zh.md)**。
 
 ## 安装
 
